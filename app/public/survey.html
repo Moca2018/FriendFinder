@@ -1,0 +1,159 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FriendFinder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="./main.css" /> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- <script src="main.js"></script> -->
+</head>
+    <body {background-color: coral;} >
+        <div class="container">
+        <div class="jumbotron">
+            <center>
+                <h2 style=font-family:myFirstFont;src:url(sansation_bold.woff);font-weight:bold></h2style>Survey Questions</h2>
+                <h3 style=font-family:myFirstFont;src:url(sansation_bold.woff);font-weight:bold>About You</strong></h3>
+                <img id="logo" src="http://butterflyacademy.co.za/images/training-icon.png">
+            </center> 
+        </div>
+        </div>
+
+        <form id="formQuestions">
+            <center>
+            <div class="form-group">
+                <label for="user"style="margin-left: 235px";>Name: (Required)</label>
+                <input type="text" class="form-user" id="user">
+            </div>
+            <div class="form-group">
+                <label for="link-image"style="margin-left: 135px";>Link to Photo Image: (Required)</label>
+                <input type="text" class="form-photo" id="photo">
+
+            </div>
+
+
+            <h3 style="font-size: 18px; color: #424242; font-weight: bold; margin-top: 10px; background-color: rgb(229, 235, 236); width: 545px;">Question #1</h3>
+            <label for="q1"style="font-size: 18px; color: #424242; font-weight: normal; margin-top: 10px;">Are you looking for a friend?</label>
+            <select name="q1" id="q1" style="margin-left: 95px";>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neither Agree nor Disagree)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+                <br>
+                <br>
+            <h3 style="font-size: 18px; color: #424242; font-weight: bold; margin-top: 10px; background-color: rgb(229, 235, 236);width: 545px;">Question #2</h3>
+            <label for="q2"style="font-size: 18px; color: #424242; font-weight: normal; margin-top: 10px;">Do you like pets inside the house?</label>
+            <select name="q2" id="q2"style="margin-left: 60px";>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neither Agree nor Disagree)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+                <br>
+                <br>
+            <h3 style="font-size: 18px; color: #424242; font-weight: bold; margin-top: 10px; background-color: rgb(229, 235, 236);width: 545px;">Question #3</h3>
+            <label for="q3"style="font-size: 18px; color: #424242; font-weight: normal; margin-top: 10px;">Are you a wild party animal?</label>
+            <select name="q3" id="q3"style="margin-left: 95px";>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neither Agree nor Disagree)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+                <br>
+                <br>
+            <h3 style="font-size: 18px; color: #424242; font-weight: bold; margin-top: 10px; background-color: rgb(229, 235, 236);width: 545px;">Question #4</h3>
+            <label for="q4"style="font-size: 18px; color: #424242; font-weight: normal; margin-top: 10px;">Do you like to travel?</label>
+            <select name="q4" id="q4"style="margin-left: 150px";>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neither Agree nor Disagree)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+                <br>
+                <br>
+            <h3 style="font-size: 18px; color: #424242; font-weight: bold; margin-top: 10px; background-color: rgb(229, 235, 236);width: 545px;">Question #5</h3>
+            <label for="q5"style="font-size: 18px; color: #424242; font-weight: normal; margin-top: 10px;">Do you have a lot of friends?</label>
+            <select name="q5" id="q5"style="margin-left: 95px";>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neither Agree nor Disagree)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+                <br>
+                <br>
+            <h3 style="font-size: 18px; color: #424242; font-weight: bold; margin-top: 10px; background-color: rgb(229, 235, 236);width: 545px;">Question #6</h3>
+            <label for="q6"style="font-size: 18px; color: #424242; font-weight: normal; margin-top: 10px;">Do you enjoy your current job?</label>
+            <select name="q6" id="q6"style="margin-left: 80px";>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neither Agree nor Disagree)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+                <br>
+                <br>
+            <h3 style="font-size: 18px; color: #424242; font-weight: bold; margin-top: 10px; background-color: rgb(229, 235, 236);width: 545px;">Question #7</h3>
+            <label for="q7"style="font-size: 18px; color: #424242; font-weight: normal; margin-top: 10px;">Do you believe in Aliens?</label>
+            <select name="q7" id="q7"style="margin-left: 120px";>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neither Agree nor Disagree)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+                <br>
+                <br>
+            <h3 style="font-size: 18px; color: #424242; font-weight: bold; margin-top: 10px; background-color: rgb(229, 235, 236);width: 545px;">Question #8</h3>
+            <label for="q8"style="font-size: 18px; color: #424242; font-weight: normal; margin-top: 10px;">Do you like Donald Trump?</label>
+            <select name="q8" id="q8"style="margin-left: 105px";>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neither Agree nor Disagree)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+                <br>
+                <br>
+            <h3 style="font-size: 18px; color: #424242; font-weight: bold; margin-top: 10px; background-color: rgb(229, 235, 236);width: 545px;">Question #9</h3>
+            <label for="q9"style="font-size: 18px; color: #424242; font-weight: normal; margin-top: 10px;">Do you always eat in restaurants?</label>
+            <select name="q9" id="q9"style="margin-left: 65px";>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 (Somewhat Disagree)</option>
+                <option value="3">3 (Neither Agree nor Disagree)</option>
+                <option value="4">4 (Somewhat Agree)</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+                <br>
+                <br>
+            <h3 style="font-size: 18px; color: #424242; font-weight: bold; margin-top: 10px; background-color: rgb(229, 235, 236);width: 545px;">Question #10</h3>
+            <label for="q10"style="font-size: 18px; color: #424242; font-weight: normal; margin-top: 10px;">Do you drink alcohol socially?</label>
+            <select name="q10" id="q10"style="margin-left: 85px";>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2 (Somewhat Disagree)</option>
+                    <option value="3">3 (Neither Agree nor Disagree)</option>
+                    <option value="4">4 (Somewhat Agree)</option>
+                    <option value="5">5 (Strongly Agree)</option>
+            </select>
+                <br>
+                <br>
+            <input type="submit" id="submitButton" value="submit">
+        </center>
+        </form>
+        <footer class="footer">
+                <div class="container">
+                    <p><a href="./api/friends.js">API Friends List</a> | <a href="git@github.com:Moca2018/FriendFinder.git">GitHub Repo</a></p>
+                </div>
+            </footer>
+
+    </body>
+</html>
+
+
+
