@@ -36,7 +36,7 @@ for (var i = 0; i < friends.length; i++){
     var notCompatible = 0;
 
 for(var j = 0; j < compatibleFriend.scores.length; j++){
-    var someCompatible = Math.abs(compatibleFriend.scores[j] - newFriend[i].scores[j]);
+    var someCompatible = Math.abs(compatibleFriend.scores[j] - newFriend.scores[j]);
     notCompatible += someCompatible;
 } 
 different.push(notCompatible);
