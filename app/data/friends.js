@@ -1,4 +1,4 @@
-var Members = [{
+var friends = [{
 	"name":"Obama",
 	  "photo":"https://imgix.ranker.com/user_node_img/50048/1000954857/original/eligible-for-membership-into-the-sons-of-the-american-revolution-photo-u1?w=650&q=50&fm=jpg&fit=crop&crop=faces",
 	   "scores":['2','4','2','4','5','2','5','1','3','5']
@@ -16,4 +16,4 @@ var Members = [{
 		"scores":['2','5','3','2','1','3','4','5','2','3']
 }];
 
-module.exports = Members;
+module.exports = friends;
